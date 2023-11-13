@@ -96,6 +96,56 @@ body {
     
 }
 
+.heading {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin: 10px;
+    padding-top: 12px;
+}
+
+.heading .empty-space {
+    width:auto;
+    height: 38px;
+}
+
+.heading h1 {
+    font-size: 1em;
+    margin: 10px;
+    margin-left: 280px;
+    margin-right: 280px;
+    text-align: center;
+    color:rgb(118, 101, 101);
+}
+
+.heading a {
+    color:rgb(115, 81, 81);
+}
+
+.custom-detail {
+    margin-bottom: 80px;
+}
+
+.objects {
+    background-color: rgb(230, 230, 227);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.objects h2 {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 1.6rem;
+    color:rgb(115, 81, 81);;
+    margin-bottom: 10px;
+}
 
 
-  
+.objects a {
+    margin-bottom: 30px;
+} 
+
