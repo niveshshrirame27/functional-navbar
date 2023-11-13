@@ -52,8 +52,12 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 40%;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.navbar sup {
+    font-size: 0.5em; /* Adjust the size as needed */
 }
 
 .navbar a {
