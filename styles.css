@@ -12,7 +12,7 @@ body {
 }
 
 .topbar {
-    background-color: rgb(119, 56, 122);
+    background-color: rgb(115, 81, 81);
     width: 100%;
     height: 40px;
     padding-top: 5px;
@@ -33,13 +33,37 @@ body {
 }
 
 .navbar {
-    background-color:antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 130px;
     position: fixed;
     top: 40px;
     transition: top 0.3s;
     padding-top: 5px;
+    background-color: white;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:rgb(115, 81, 81);
+}
+
+.navbar-logo img {
+   width: 200px;
+   height: 128px;
 }
 
 .data {
@@ -67,5 +91,7 @@ body {
     height: 90vh;
     
 }
+
+
 
   
