@@ -16,9 +16,11 @@ document.addEventListener("DOMContentLoaded", function() {
       index = (index + 1) % paragraphs.length; // Move to the next paragraph cyclically
     } 
       setInterval(updateParagraph, 1500);
-  });
+});
 
-  document.addEventListener("DOMContentLoaded", function() {
+  
+
+document.addEventListener("DOMContentLoaded", function() {
     const topbar = document.getElementById("topbar");
     const navbar = document.getElementById("navbar");
     let lastScrollTop = 0;
