@@ -6,23 +6,62 @@
     box-sizing: border-box;
 }
 
-.navbar {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
     background-color: rgb(119, 56, 122);
     width: 100%;
-    height: 60px;
+    height: 40px;
     padding-top: 5px;
-    position: absolute;
+    position: fixed;
     top: 0;
     display: flex; /* Use flexbox to center child elements */
     align-items: center; /* Center the child elements vertically */
     justify-content: center; /* Center the child elements horizontally */
+    transition: top 0.3s;
   }
   
-  .navbar p {
+.topbar p {
     color: white;
     font-size: 15px;
     font-weight: bold;
     position: absolute; /* Use absolute positioning */
     opacity: 0; /* Apply */
-  }
+}
+
+.navbar {
+    background-color:antiquewhite;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 40px;
+    transition: top 0.3s;
+    padding-top: 5px;
+}
+
+.data {
+    padding-top: 160px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.content img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
   
