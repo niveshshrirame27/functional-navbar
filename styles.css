@@ -128,10 +128,14 @@ body {
     margin-bottom: 80px;
 }
 
-.objects {
+.products {
     background-color: rgb(230, 230, 227);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+}
+
+.objects {
+    width: 100vw;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -149,3 +153,34 @@ body {
     margin-bottom: 30px;
 } 
 
+.commerce {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 71px 43px 43px;
+}
+
+.thumbnail {
+    padding: 10px;
+}
+
+.thumbnail img {
+    margin: 10px;
+    width: 312.43px;
+    height: 468px;
+}
+
+.thumbnail-detail {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 100%;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.tw {
+    display: flex;
+    flex-direction: row;
+}
