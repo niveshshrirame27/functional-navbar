@@ -129,7 +129,7 @@ body {
 }
 
 .products {
-    background-color: rgb(230, 230, 227);
+    background-color: #f9f7f4;
     width: 100vw;
     height: 95vh    
 }
@@ -161,12 +161,38 @@ body {
     justify-content: center;
 }
 
-.ttd {
-    margin: 0px 20px 0px 20px;
-}
-
 .thumbnail img {
     width: 312px;
     height: 468px;
+}
+
+/* Thumbnail container styles */
+.ttd {
+    position: relative;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+/* Default image styles */
+.default-img {
+    display: block;
+    width: 100%; /* Adjust dimensions as needed */
+    height: auto;
+}
+
+/* Hover image styles */
+.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%; /* Adjust dimensions as needed */
+    height: auto;
+    z-index: 1; /* Places the hover image above the default image */
+}
+
+/* Show the hover image on hover */
+.image-link:hover .hover-img {
+    display: block;
 }
 
