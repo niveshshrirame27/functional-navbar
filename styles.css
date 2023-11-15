@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding:0px;
 }
 
 .topbar {
@@ -19,12 +19,12 @@ body {
     height: 40px;
     padding-top: 5px;
     position: fixed;
-    top: 0;
     display: flex; /* Use flexbox to center child elements */
     align-items: center; /* Center the child elements vertically */
     justify-content: center; /* Center the child elements horizontally */
     transition: top 0.3s;
-  }
+    z-index:900;
+}
   
 .topbar p {
     color: white;
@@ -228,7 +228,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #f9f7f4;
-    padding: 0px 25.1641px;
+    padding: 71.8984px 215.695px 43.1328px;
 }
 
 .c-img {
@@ -236,8 +236,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 150px;
-    
+    padding: 0px 25.1641px;
 }
 
 .c-logos img {
