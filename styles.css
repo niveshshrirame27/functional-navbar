@@ -1,5 +1,7 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +46,7 @@ body {
     transition: top 0.3s;
     padding-top: 5px;
     background-color: white;
+    z-index: 1000;
 }
 
 .navbar-left,
@@ -75,8 +78,6 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
 .content {
@@ -92,8 +93,7 @@ body {
     margin-bottom: 10px;
     cursor: pointer;
     width: 90vw;
-    height: 90vh;
-    
+    height: 90vh; 
 }
 
 .heading {
@@ -194,5 +194,54 @@ body {
 /* Show the hover image on hover */
 .image-link:hover .hover-img {
     display: block;
+}
+
+.heading2 {
+    padding: 0px 35.9453px;
+}
+
+.hp {
+    padding: 68.3047px 273.219px 0px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #544844;
+    margin-bottom: 100px;
+}
+
+.hp h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.hp .empty-space {
+    width:819.67px;
+    height: 32px;
+}
+
+.hp h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.c-logos {
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f7f4;
+    padding: 0px 25.1641px;
+}
+
+.c-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+    
+}
+
+.c-logos img {
+    width: 95.63px;
+    height: 95.63px;
 }
 
