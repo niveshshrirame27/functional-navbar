@@ -131,7 +131,7 @@ body {
 .products {
     background-color: #f9f7f4;
     width: 100vw;
-    height: 95vh    
+    padding-bottom: 20px;  
 }
 
 .objects {
@@ -244,3 +244,42 @@ body {
     height: 95.63px;
 }
 
+.stock {
+    width: 100%;
+    text-align: center;
+}
+
+.sh4 {
+    text-align: center;
+    text-decoration: underline;
+    width: 100vw;
+}
+
+.stock-ibox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+.stock-ibox img {
+    width: 251px;
+    height: 368px;
+    
+}
+
+.div-5 {
+    width: 251px;
+    height:42px;
+    text-align: left;
+    font-size: small;
+    padding-left: 10px;
+}
+
+.div-5 p {
+    margin-top:10px;
+}
